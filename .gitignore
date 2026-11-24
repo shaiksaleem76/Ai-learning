@@ -1,0 +1,32 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Vector database
+chroma_db/
+
+# Chat history
+streamlit_chat_history.json
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+# Chat history
+chat_history.json
+streamlit_chat_history.json
